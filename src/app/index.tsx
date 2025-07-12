@@ -26,7 +26,7 @@ const App = () : React.ReactElement => {
 
     const appContext = useContext<any>(AppContext);
 
-    const APP_TITLE = process.env.REACT_APP_APP_NAME
+    const APP_TITLE = import.meta.env.REACT_APP_APP_NAME
 
     const {
         /**
